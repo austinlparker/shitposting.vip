@@ -95,7 +95,7 @@ nav li {
 
 nav a {
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: bold;
 }
 
