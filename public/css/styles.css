@@ -1,0 +1,123 @@
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 30px;
+  border-radius: 10px 10px 0 0;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  opacity: 0.9;
+}
+
+/* Style the main content area */
+main {
+  background-color: #333;
+  color: #fff;
+  padding: 30px;
+  border-radius: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  opacity: 0.9;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  opacity: 0.9;
+}
+
+body {
+  font-family: "Consolas", monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  background-image: url("/assets/blob.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  animation: glitch 20s infinite, ripple 5s infinite;
+}
+
+@keyframes glitch {
+  0% {
+    background-position: 0 0;
+  }
+  10% {
+    background-position: -10px -10px;
+  }
+  20% {
+    background-position: 3px 3px;
+  }
+  30% {
+    background-position: -13px -7px;
+  }
+  40% {
+    background-position: 21px 9px;
+  }
+  50% {
+    background-position: -4px -20px;
+  }
+  60% {
+    background-position: 21px 9px;
+  }
+  70% {
+    background-position: -13px -7px;
+  }
+  80% {
+    background-position: 3px 3px;
+  }
+  90% {
+    background-position: -10px -10px;
+  }
+  100% {
+    background-position: 0px 0px;
+  }
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header h1,
+nav a {
+  font-family: 'Warnes', cursive;
+  font-weight: normal;
+}
+
+footer p {
+  font-family: 'Warnes', cursive;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+main li a {
+  color: #ffcc00;
+  text-decoration: none;
+  border-bottom: 1px solid #ffcc00;
+}
+
+main li a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
